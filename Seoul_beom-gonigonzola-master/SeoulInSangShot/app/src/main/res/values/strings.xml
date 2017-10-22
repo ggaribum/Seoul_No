@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">서울 in생샷</string>
+    <string name="title_activity_primary">서울 in생샷</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="facebook_app_id">1360905357355830</string>
+
+
+    <string-array name="device_type">
+        <item>아이폰 6/6S</item>
+        <item>아이폰 6+/6S+</item>
+        <item>아이폰 7</item>
+        <item>아이폰 7+</item>
+        <item>갤럭시 S6</item>
+        <item>갤럭시 S7</item>
+        <item>갤럭시 S8</item>
+        <item>LG V30(+)</item>
+        <item>LG Q6(+)</item>
+        <item>LG Q8</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="season">
+        <item>봄</item>
+        <item>여름</item>
+        <item>가을</item>
+        <item>겨울</item>
+    </string-array>
+
+    <string-array name="simpleTime">
+        <item>오전</item>
+        <item>점심</item>
+        <item>오후</item>
+        <item>밤</item>
+    </string-array>
+
+    <string name="title_home">홈</string>
+    <string name="title_search">검색</string>
+    <string name="title_album">앨범</string>
+    <string name="title_notifications">공지사항</string>
+    <string name="title_login">로그인</string>
+</resources>
