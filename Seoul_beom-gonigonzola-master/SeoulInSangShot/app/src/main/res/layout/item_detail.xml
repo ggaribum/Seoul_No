@@ -6,14 +6,71 @@
     android:layout_margin="5dp"
     android:orientation="vertical"
     card_view:cardBackgroundColor="@android:color/transparent">
-
-    <com.github.oliveiradev.image_zoom.lib.widget.ImageZoom
-        android:id="@+id/iv_detail_main"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:background="@android:color/transparent"
-        card_view:srcCompat="@android:drawable/ic_menu_gallery" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
+        <com.github.oliveiradev.image_zoom.lib.widget.ImageZoom
+            android:id="@+id/iv_detail_main"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:background="@android:color/transparent"
+            card_view:srcCompat="@android:drawable/ic_menu_gallery" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/detail_index1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:src="@drawable/indexbefore" />
+
+            <ImageView
+                android:id="@+id/detail_index2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="10dp"
+                android:visibility="gone"
+
+                android:src="@drawable/indexbefore" />
+
+            <ImageView
+                android:id="@+id/detail_index3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="10dp"
+                android:visibility="gone"
+
+                android:src="@drawable/indexbefore" />
+
+            <ImageView
+                android:id="@+id/detail_index4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="10dp"
+                android:visibility="gone"
+
+                android:src="@drawable/indexbefore" />
+
+            <ImageView
+                android:id="@+id/detail_index5"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="10dp"
+                android:visibility="gone"
+
+                android:src="@drawable/indexbefore" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
 </android.support.v7.widget.CardView>

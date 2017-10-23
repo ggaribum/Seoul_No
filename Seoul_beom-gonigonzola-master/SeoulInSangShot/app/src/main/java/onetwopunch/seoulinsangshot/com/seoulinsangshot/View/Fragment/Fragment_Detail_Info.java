@@ -66,6 +66,8 @@ public class Fragment_Detail_Info extends Fragment {
     TextView smarthPhoneTv; //스마트폰 텍스트뷰
     TextView appInfoTv; //앱정보 텍스트뷰
     TextView transTv;   //교통수단 텍스트뷰
+    TextView transTv2;   //교통수단 텍스트뷰
+
     TextView ddareungTv;    //따릉이 텍스트뷰
     TextView hitsTv;
 
@@ -158,6 +160,8 @@ public class Fragment_Detail_Info extends Fragment {
         smarthPhoneTv = (TextView) rootView.findViewById(R.id.smartphInfo);
         appInfoTv = (TextView) rootView.findViewById(R.id.appInfo);
         transTv = (TextView) rootView.findViewById(R.id.transportationInfo);
+        transTv2 = (TextView) rootView.findViewById(R.id.transportationInfo2);
+
         ddareungTv = (TextView) rootView.findViewById(R.id.ddareungEInfo);
         areaTv = (TextView) rootView.findViewById(R.id.areaTextView);
         hitsTv = (TextView) rootView.findViewById(R.id.hitsTextView);
@@ -278,7 +282,8 @@ public class Fragment_Detail_Info extends Fragment {
         smarthPhoneTv.setText(smartPhone);
         appInfoTv.setText(filter);
         //☆★☆★☆★☆★☆★☆★☆★☆★
-        transTv.setText(subway + "\n" + bus);
+        transTv.setText(subway);
+        transTv2.setText(bus);
         ddareungTv.setText(bicycle);
         secondTheme.setText(theme1 + " / " + theme2);
         secondTip.setText(tip);
